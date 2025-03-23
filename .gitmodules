@@ -1,0 +1,4 @@
+[submodule "themes/hugo-xmin"]
+	path = themes/hugo-xmin
+	url = git@github.com:yihui/hugo-xmin.git
+	branch = master

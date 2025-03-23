@@ -1,0 +1,39 @@
+baseurl = "https://u10x.dev"
+title = "You are 10x developer"
+canonifyurls = true
+theme = "hugo-xmin"
+languageCode = "en-US"
+copyright = "Code released under the Apache 2.0 license."
+
+uglyurls = true
+publishDir = "public"
+
+disqusShortname = "brunoozendo"
+googleAnalytics = "UA-86914466-1"
+
+[author]
+    name = "Bruno Rozendo"
+
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = "coisas que esbarrei no meio do caminho."
+  Author = "Bruno Rozendo"
+  email = "bruno@brunorozendo.com"
+  customCSS = ["/css/custom.css"]
+
+[[params.social]]
+    title = "github"
+    url = "https://github.com/brunorozendo"
+
+
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = -200
+[[menu.main]]
+  name = "Posts"
+  url = "/posts.html"
+  weight = -180
+
+[permalinks]
+  posts = "/post/:filename"
