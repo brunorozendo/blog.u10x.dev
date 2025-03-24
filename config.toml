@@ -1,5 +1,5 @@
 baseurl = "https://blog.u10x.dev"
-title = "You are 10x developer"
+title = "You are 10x developer  "
 canonifyurls = true
 theme = "hugo-xmin"
 languageCode = "en-US"
