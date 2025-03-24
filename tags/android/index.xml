@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on You are 10x developer</title><link>https://u10x.dev/tags/android.html</link><description>Recent content in Android on You are 10x developer</description><generator>Hugo</generator><language>en-US</language><copyright>Code released under the Apache 2.0 license.</copyright><lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://u10x.dev/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Criar AVD (Simulador Android) por linha de comando no Gnu/Linux</title><link>https://u10x.dev/post/criar-avd-gnu-linux.html</link><pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate><guid>https://u10x.dev/post/criar-avd-gnu-linux.html</guid><description>&lt;table class="table table-striped">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on You are 10x developer</title><link>https://blog.u10x.dev/tags/android.html</link><description>Recent content in Android on You are 10x developer</description><generator>Hugo</generator><language>en-US</language><copyright>Code released under the Apache 2.0 license.</copyright><lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.u10x.dev/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Criar AVD (Simulador Android) por linha de comando no Gnu/Linux</title><link>https://blog.u10x.dev/post/criar-avd-gnu-linux.html</link><pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.u10x.dev/post/criar-avd-gnu-linux.html</guid><description>&lt;table class="table table-striped">
  &lt;thead>
  &lt;tr>
  &lt;th>rev.&lt;/th>
@@ -19,7 +19,7 @@
 
 
 &lt;h4 id="prequisitos">Prequisitos&lt;/h4>
-&lt;p>Ter o &lt;a href="https://u10x.dev/post/instalar-adroid-sdk-gnu-linux.html">android sdk instalado&lt;/a>&lt;/p>
+&lt;p>Ter o &lt;a href="https://blog.u10x.dev/post/instalar-adroid-sdk-gnu-linux.html">android sdk instalado&lt;/a>&lt;/p>
 &lt;h4 id="1-criar-avd">1. Criar avd&lt;/h4>
 &lt;p>Uma vez que que já tenha instalado o sdk tudo fica bem mais fácil.&lt;/p>
 &lt;p>Supondo que queremos rodar uma versão do &lt;code>Android 5.0 (Lollipop)&lt;/code> abra o terminal e vamos instalar os seguites pacotes:&lt;/p>
@@ -32,7 +32,7 @@
 &lt;p>No terminal&lt;/p>
 &lt;div class="terminal">
  &lt;div class="header">
- &lt;img src="https://u10x.dev//images/layouts/shortcodes/terminal.png" alt="">
+ &lt;img src="https://blog.u10x.dev//images/layouts/shortcodes/terminal.png" alt="">
  &lt;div class="title">Terminal&lt;/div>
  &lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ sdkmanager &lt;span style="color:#e6db74">&amp;#34;platforms;android-22&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[=======================================]&lt;/span> 100% Computing updates...
@@ -43,7 +43,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sdkmanager &lt;span style="color:#e6db74">&amp;#34;platform-tools&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[=======================================]&lt;/span> 100% Unzipping... platform-tools/systr&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
 
-&lt;p>** Caso queira ver todas as opções possiveis digite no terminal&lt;/p></description></item><item><title>Como Instalar o Android SDK no Gnu/Linux</title><link>https://u10x.dev/post/instalar-adroid-sdk-gnu-linux.html</link><pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate><guid>https://u10x.dev/post/instalar-adroid-sdk-gnu-linux.html</guid><description>&lt;table class="table table-striped">
+&lt;p>** Caso queira ver todas as opções possiveis digite no terminal&lt;/p></description></item><item><title>Como Instalar o Android SDK no Gnu/Linux</title><link>https://blog.u10x.dev/post/instalar-adroid-sdk-gnu-linux.html</link><pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate><guid>https://blog.u10x.dev/post/instalar-adroid-sdk-gnu-linux.html</guid><description>&lt;table class="table table-striped">
  &lt;thead>
  &lt;tr>
  &lt;th>rev.&lt;/th>
@@ -78,21 +78,21 @@
 2.1. &lt;strong>Ubuntu 64&lt;/strong>:
 &lt;div class="terminal">
  &lt;div class="header">
- &lt;img src="https://u10x.dev//images/layouts/shortcodes/terminal.png" alt="">
+ &lt;img src="https://blog.u10x.dev//images/layouts/shortcodes/terminal.png" alt="">
  &lt;div class="title">Terminal&lt;/div>
  &lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
 
 2.2. &lt;strong>Fedora 64&lt;/strong>:
 &lt;div class="terminal">
  &lt;div class="header">
- &lt;img src="https://u10x.dev//images/layouts/shortcodes/terminal.png" alt="">
+ &lt;img src="https://blog.u10x.dev//images/layouts/shortcodes/terminal.png" alt="">
  &lt;div class="title">Terminal&lt;/div>
  &lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ sudo dnf install zlib.i686 ncurses-libs.i686 bzip2-libs.i686&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="1-download-do-command-tools">1. Download do &lt;code>command-tools&lt;/code>&lt;/h3>
 &lt;p>Vá em &lt;a href="https://developer.android.com/studio#command-tools">Android Studio &amp;gt; Downloads &amp;gt; Command line tools only &amp;gt; commandlinetools-linux-XXXXXXXXXXX.zip&lt;/a>&lt;/p>
-&lt;p>Espere a página carregar, clique em &amp;ldquo;I have read and agree with the above terms and conditions&amp;rdquo; (aceitar) e faça o download.&lt;/p></description></item><item><title>Instalando Gradle No Gnu/Linux</title><link>https://u10x.dev/post/instalando-gradle-no-gnu-linux.html</link><pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate><guid>https://u10x.dev/post/instalando-gradle-no-gnu-linux.html</guid><description>&lt;p>Gradle é uma poderosa ferramenta para o gerenciamento de build e dependências em java(e capaz de se extender para outras linguagens)&lt;/p>
+&lt;p>Espere a página carregar, clique em &amp;ldquo;I have read and agree with the above terms and conditions&amp;rdquo; (aceitar) e faça o download.&lt;/p></description></item><item><title>Instalando Gradle No Gnu/Linux</title><link>https://blog.u10x.dev/post/instalando-gradle-no-gnu-linux.html</link><pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate><guid>https://blog.u10x.dev/post/instalando-gradle-no-gnu-linux.html</guid><description>&lt;p>Gradle é uma poderosa ferramenta para o gerenciamento de build e dependências em java(e capaz de se extender para outras linguagens)&lt;/p>
 &lt;h4 id="0-prerequisitos">0. Prerequisitos&lt;/h4>
 &lt;p>Ter o java 8 instalado&lt;/p>
 &lt;h4 id="1-dowload-do-gradle">1. Dowload do gradle&lt;/h4>
@@ -100,7 +100,7 @@
 &lt;p>Depois disso escolha uma pasta do no seu computador para descompactar, no meu caso será &lt;code>/opt/gradle&lt;/code>&lt;/p>
 &lt;div class="terminal">
  &lt;div class="header">
- &lt;img src="https://u10x.dev//images/layouts/shortcodes/terminal.png" alt="">
+ &lt;img src="https://blog.u10x.dev//images/layouts/shortcodes/terminal.png" alt="">
  &lt;div class="title">Terminal&lt;/div>
  &lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>bruno@ubuntu:~$ ls /opt/gradle/
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gradle-4.0.2-all.zip gradle-4.0.2 
