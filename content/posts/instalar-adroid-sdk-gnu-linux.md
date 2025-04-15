@@ -1,12 +1,13 @@
 ---
-title: "Como Instalar o Android SDK no Gnu/Linux"
+title: "Como Instalar o Android SDK no Linux"
 description: "como instalar android tools"
 author: "Bruno Rozendo"
-date: 2022-02-15
+date: 2025-04-13
 draft: false
 tags:
 - "android"
 - "gnu/linux"
+- "linux"
 - "android sdk"
 - "android na raça"
 comments: true
@@ -14,23 +15,12 @@ imageCredit: "<a href='http://www.freepik.com'>Designed by pikisuperstar / Freep
 image: "/images/posts/android-sdk.svg"
 ---
 
-
-{{< table "table table-striped" >}}
-| rev.  | data |
-|---------|--------|
-| 1 revisão      | 24/07/2017    |
-| 2 revisão      | 18/07/2020    |
-| 3 revisão      | 03/02/2021    |
-| 4 revisão      | 15/02/2022    |
-{{</ table >}}
-
-
 ### Prequisitos
 
  1. Ter o java 17 instalado
  2. Intalar dependências\
     2.1. __Ubuntu 64__:
-    {{< terminal >}}{{< highlight bash >}}$ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386{{< /highlight >}}{{< /terminal >}}
+    {{< terminal >}}{{< highlight bash >}}$sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386{{< /highlight >}}{{< /terminal >}}
     2.2. __Fedora 64__:
     {{< terminal >}}{{< highlight bash >}}$ sudo dnf install zlib.i686 ncurses-libs.i686 bzip2-libs.i686{{< /highlight >}}{{< /terminal >}}
 
@@ -38,7 +28,7 @@ image: "/images/posts/android-sdk.svg"
 ### 1. Download do `command-tools`
 
 
-Vá em [Android Studio > Downloads > Command line tools only > commandlinetools-linux-XXXXXXXXXXX.zip](https://developer.android.com/studio#command-tools)
+Vá em [Android Studio > Downloads > Command line tools only > commandlinetools-linux-XXXXXXXXXXX.zip](https://developer.android.com/studio#android-studio-downloads)
 
 Espere a página carregar, clique em "I have read and agree with the above terms and conditions" (aceitar) e  faça o download.
 
@@ -74,7 +64,7 @@ bin  lib  NOTICE.txt  source.properties
 
 Agora vamos adicionar as variaváveis de ambiente, se você reparar algumas pastas ainda não existem, mas calma elas irão ser criadas.
 
-editar o `/etc/profile` ou o ` ~/.profile` e adicionar no final do aquivo
+editar o `/etc/profile` ou o ` ~/.profile` e adicionar no final do arquivo
 
 {{< terminal >}}{{< highlight bash >}}
 export ANDROID_HOME=/opt/android/android-sdk-linux
@@ -140,4 +130,4 @@ Se você for inspecionar a pasta `/opt/android/android-sdk-linux` tem mais conte
 
 Pronto! Agora sim, está tudo instalado, só aproveitar. 
 
-[Como sugestão que tal criar um emulator agora!](https://brunorozendo.com/post/criar-avd-gnu-linux.html)
+[Como sugestão que tal criar um emulator agora!](/post/criar-avd-gnu-linux.html)

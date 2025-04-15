@@ -1,25 +1,19 @@
 ---
-title: "Criar AVD (Simulador Android) por linha de comando no Gnu/Linux"
-description: "criação de uma maquina virtual android (AVD/Simulador) no linux"
+title: "Criar AVD (Simulador/Emulador Android) por linha de comando no Linux"
+description: "criação de uma maquina virtual android (AVD/Simulador/Emulador) no linux"
 author: "Bruno Rozendo"
-date: 2022-02-16
+date: 2025-04-16
 draft: false
 tags:
 - "android"
 - "gnu/linux"
+- "linux"
 - "avd"
 - "android na raça"
 comments: true
 imageCredit: "<a href='http://www.freepik.com'>Designed by ijeab / Freepik</a>"
 image: "/images/posts/criar-avd-gnu-linux/banner.jpg"
 ---
-
-{{< table "table table-striped" >}}
-| rev.  | data |
-|---------|--------|
-| 1 revisão      | 26/07/2017    |
-| 2 revisão      | 16/02/2022    |
-{{</ table >}}
 
 
 #### Prequisitos
@@ -30,7 +24,7 @@ Ter o [android sdk instalado](/post/instalar-adroid-sdk-gnu-linux.html)
 #### 1. Criar avd
 
 
-Uma vez que que já tenha instalado o sdk tudo fica bem mais fácil.
+Uma vez que já tenha instalado o sdk tudo fica bem mais fácil.
 
 Supondo que queremos rodar uma versão do `Android 5.0 (Lollipop)` abra o terminal e vamos instalar os seguites pacotes:
 
@@ -52,7 +46,7 @@ $ sdkmanager "platform-tools"
 {{< /highlight >}}{{< /terminal >}}
 
 
-** Caso queira ver todas as opções possiveis digite no terminal
+** Caso queira ver todas as opções possíveis digite no terminal
 
 
 {{< terminal >}}{{< highlight bash >}}$ sdkmanager --list --verbose
@@ -78,7 +72,7 @@ Agora vamos criar o própriamente o `avd`. Ponha no terminal:
 
 No Android Studio existem algumas [skins](https://developer.android.com/studio/run/managing-avds.html#skins) disponíveis.
 
-Como esse tutorial é na raça (tudo na mão), não teriamos esses disponiveis, mas calma, para tudo na vida tem jeito.
+Como esse tutorial é na raça (tudo na mão), não teriamos esses disponíveis, mas calma, para tudo na vida tem jeito.
 
 
 {{< terminal >}}{{< highlight bash >}}$ cd  $ANDROID_HOME
@@ -101,13 +95,13 @@ Pronto agora essas skins estão de fácil acesso.
  -gpu on
 {{< /highlight >}}{{< /terminal >}}
 
-e _voilá_ temos um adroid rodando.
+e _voilá_ temos um android rodando.
 
 {{< image src="/images/posts/criar-avd-gnu-linux/avd.png"  >}}
 
 Clique no **X** para fechar o simulador. 
 
-Agora vamos deixa esse emulador usavel!
+Agora vamos deixa esse emulador usável!
 
  - Unable to connect to adb daemon on port: 5037
 
@@ -173,7 +167,7 @@ Agora vamos deixa esse emulador usavel!
    {{< /highlight >}}{{< /terminal >}}
 
 
- - Caso tenho feito alguns teste você deve ter percebido que o teclado não está fucionando vamos resolver isso.
+ - Caso tenho feito alguns testes você deve ter percebido que o teclado não está fucionando vamos resolver isso.
 
    Feche novamente o simulador.
    
@@ -183,7 +177,7 @@ Agora vamos deixa esse emulador usavel!
    
    Procure pela linha ```hw.keyboard=no``` e substitua por ```hw.keyboard=yes```
 
-   ** [Ctrl+C/Ctrl+V não é possivel com o teclado, mas há outras maneiras](https://stackoverflow.com/questions/3391160/paste-text-on-android-emulator).
+   ** [Ctrl+C/Ctrl+V não é possível com o teclado, mas há outras maneiras](https://stackoverflow.com/questions/3391160/paste-text-on-android-emulator).
 
  - É possivel já deixar a `skin` configurada, para isso, busque pela linha `skin.path=_no_skin` e substitua, no caso ficou assim
 

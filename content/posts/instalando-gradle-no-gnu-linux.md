@@ -2,10 +2,11 @@
 title: "Instalando Gradle No Gnu/Linux"
 description: "como como instalar o gradle no gnu/linux"
 author: "Bruno Rozendo"
-date: 2017-07-28
+date: 2025-04-15
 draft: false
 tags:
 - "gnu/linux"
+- "linux"
 - "android"
 - "gradle"
 - "java"
@@ -22,7 +23,7 @@ Gradle é uma poderosa ferramenta para o gerenciamento de build e dependências 
 
 #### 0. Prerequisitos
 
-Ter o java 8 instalado
+Ter o java 23 instalado
 
 #### 1. Dowload do gradle
 
