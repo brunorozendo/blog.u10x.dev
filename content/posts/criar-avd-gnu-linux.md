@@ -2,7 +2,7 @@
 title: "Criar AVD (Simulador/Emulador Android) por linha de comando no Linux"
 description: "criação de uma maquina virtual android (AVD/Simulador/Emulador) no linux"
 author: "Bruno Rozendo"
-date: 2025-04-16
+date: 2025-04-14
 draft: false
 tags:
 - "android"
